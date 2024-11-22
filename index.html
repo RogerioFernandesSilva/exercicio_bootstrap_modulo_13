@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mix Confinamento</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./imagens/Captura de tela 2024-11-21 113407.jpg" alt="Logo" style="height:80px;">
+                    Mix Confinamento
+                </a>
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item ms-3">
+                        <a class="nav-link active" href="#sobre-a-loja">Sobre nós</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" href="#Confinamento">Confinamentos</a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link" href="#fale-conosco">Fale conosco</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="carousel-control" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./imagens/Captura de tela 2024-11-20 113429.png" class="d-block w-100" alt="Manejo Rotatínuo">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagens/Captura de tela 2024-11-20 113519.png" class="d-block w-100" alt="Confinamento">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagens/Captura de tela 2024-11-20 113654.png" class="d-block w-100" alt="Boi sem stress">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-control" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-control" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+    <div id="sobre-a-loja" class="container my-5">
+        <h2>Sua Escolha Segura para Confinamento de Alta Qualidade</h2>
+        <article class="card text-bg-dark">
+            <img src="./imagens/Captura de tela 2024-11-20 113745.png" class="card-img-top" alt="Loja">
+            <div class="card-body">
+                <h3 class="card-title">Sobre nós</h3>
+                <p class="card-text">
+                A Mix Confinamento nasceu para levar ao agronegócio soluções em nutrição animal que acompanhassem a evolução do mercado.
+                Com o compromisso de oferecer as melhores tecnologias, adaptadas à realidade do produtor rural, somos parte da Mix Confinamento, que atua há mais de 175 anos oferecendo qualidade, atendimento, resultado, tecnologia e inovação.
+                </p>
+            </div>
+        </article>
+    </div>
+    <div id="confinamento" class="container my-5">
+        <h2>Confinamentos</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <article class="card text-bg-dark">
+                    <header class="card-header">Confinamento Misto</header>
+                    <img src="https://agroceresmultimix.com.br/blog/wp-content/webp-express/webp-images/uploads/2024/01/CAMPEOS-PGP-A-NO-CONFINAMENTO-26-scaled-e1706288795999.jpg.webp" class="card-img-top" alt="Manejo Rotatínuo">
+                    <div class="card-body">
+                        <p class="card-text">O Confinamento Misto, líder de vendas para levar ao agronegócio soluções em nutrição animal que acompanham a evolução do mercado.</p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <article class="card text-bg-dark">
+                    <header class="card-header">Confinamento Tradicional</header>
+                    <img src="https://agroceresmultimix.com.br/blog/wp-content/webp-express/webp-images/uploads/2024/09/DSC01901-Copia-768x576.jpg.webp" class="card-img-top" alt="Manejo Rotatínuo">
+                    <div class="card-body">
+                        <p class="card-text">O objetivo é fornecer recursos nutricionais completos para o desenvolvimento do gado, de forma a obter animais com os melhores resultados produtivos possíveis.</p>
+                    </div>
+                </article>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <article class="card text-bg-dark">
+                    <header class="card-header">Confinamento Tie-stall</header>
+                    <img src="https://blog.apecuariadeprecisao.com.br/wp-content/uploads/2022/02/blog_0264-nutricao-de-gado-de-leite.jpg" class="card-img-top" alt="Manejo Rotatínuo">
+                    <div class="card-body">
+                        <p class="card-text">Um sistema de confinamento para gado leiteiro em que as vacas ficam contidas em baias individuais, lado a lado, e são presas por uma corrente no pescoço.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+    <div id="fale-conosco" class="container my-5">
+        <h2>Fale conosco</h2>
+        <form class="text-bg-dark p-4 rounded">
+            <label for="nome" class="form-label">Seu nome:</label>
+            <input type="text" id="nome" class="form-control" required>
+            <label for="email" class="form-label">Seu e-mail:</label>
+            <input type="email" id="email" class="form-control" required>
+            <label for="mensagem" class="form-label">Mensagem:</label>
+            <textarea id="mensagem" class="form-control" rows="4" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            <button class="btn btn-light btn-lg mt-3">Enviar</button>
+        </form>
+    </div>
+    <footer class="bg-dark text-light py-3 text-center">
+        <p>&copy; 2024 Todos os direitos reservados - Mix Confinamento</p>
+        <p>Design por <a href="https://github.com/RogerioFernandesSilva" class="text-light" target="_blank">Rogério Fernandes</a></p>
+    </footer>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
